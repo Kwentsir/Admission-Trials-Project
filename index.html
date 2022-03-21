@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <h1 id="title">Survey Form</h1>
+  <p id="description">This is our Form</p>
+  <form action="post" id="survey-form">
+    <label for="name" id="name-label">Name</label>
+    <br>
+
+    <input type="text" id="name" placeholder="Enter name" required>
+
+    <br>
+    <label for="email" id="email-label">Email</label>
+    <br>
+
+    <input type="email" id="email" placeholder="Enter email" required>
+    <br>
+    <label for="name" id="number-label">Number</label>
+    <br>
+
+    <input type="number" id="number" placeholder="Enter number" min="5" max="10">
+    <br>
+    <p>What is your favourit animal</p>
+    <select id="dropdown">
+      <option value="cat">cat</option>
+      <option value="dog">dog</option>
+    </select>
+    <br>
+    <p>Would you get an animal to live with you?</p>
+
+    <input type="radio" id="choice1" name="animals" value="sure">
+    <label for="choice1">Sure</label>
+
+    <input type="radio" id="choice2" name="animals" value="Never">
+    <label for="contactChoice2">Never</label>
+
+
+    <br>
+    <p>What is the most thing you love about cats?</p>
+    <input type="checkbox" id="cat" name="cat" value="mewoing">
+    <label for="mewoing"> mewoing</label><br>
+    <input type="checkbox" id="cat" name="cat" value="Purrring">
+    <label for="vehicle3"> Purring</label><br>
+
+    <textarea id="textarea" name="name" rows="4" cols="50"></textarea>
+    <br>
+    <button type="submit" id="submit" value="submit">submit</button>
+
+  </form>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
